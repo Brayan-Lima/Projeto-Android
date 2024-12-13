@@ -68,17 +68,14 @@ nav {
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.534);
 }
 
-nav > a {
+nav > a  > img {
     color: white;
     padding: 10px;
-    text-decoration: none;
-    font-weight: bold;
 }
 
-nav > a:hover {
+nav > a > img:hover {
     background-color: var(--cor2);
-    color: black;
-    border-radius: 12px;
+    border-radius: 50%;
     transition-duration: 200ms;
 }
 
